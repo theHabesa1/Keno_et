@@ -1,0 +1,33 @@
+.progress-bar {
+    @apply h-2 bg-gray-200 rounded-full;
+  }
+  
+  .progress-bar .bg-blue-500 {
+    @apply h-full transition ease-out duration-300;
+  }
+  
+  /* card.css */
+.card-container {
+   
+    width: 400px;/* Set desired height */
+    transition: transform 0.3s ease;
+  }
+  
+  .card-container:hover {
+    transform: translateY(-5px); /* Add hover effect */
+  }
+  
+  .card-body {
+    height: 100%;
+  }
+  .selected-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px; /* Set width and height to create a circle */
+    height: 30px;
+    background-color: red; /* Change background color to red */
+    color: white;
+    border-radius: 50%; /* Make it a circle */
+    margin: 5px;
+  } 
